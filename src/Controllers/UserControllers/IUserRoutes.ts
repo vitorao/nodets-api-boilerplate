@@ -2,7 +2,10 @@ import { strEnum } from '../../Decorators/types/utils';
 
 const userRoutesControllers = strEnum([
   'index',
-  'details',
+  'setUser',
+  'updateUser',
+  'replaceUser',
+  'removeUser',
 ])
 
 export type userRoutesControllers = keyof typeof userRoutesControllers;
